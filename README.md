@@ -1,7 +1,7 @@
 # Dev-LFG (Looking For Group for Coders)
 
-[![CI](https://github.com/YOUR_ACTUAL_USERNAME/dev-lfg/workflows/CI/badge.svg)](https://github.com/YOUR_ACTUAL_USERNAME/dev-lfg/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
@@ -162,6 +162,3 @@ The heart of Dev-LFG is the matching logic in `MatchService.checkForMatch()`:
 4. Add tests if applicable
 5. Submit a pull request
 
-## License
-
-MIT License - feel free to use this project as a starting point for your own developer networking app!
