@@ -1,6 +1,13 @@
 # Dev-LFG (Looking For Group for Coders)
 
-A Tinder-style swiping app for developers to find partners for hackathons or side projects.
+[![CI](https://github.com/yourusername/dev-lfg/workflows/CI/badge.svg)](https://github.com/yourusername/dev-lfg/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
+> A Tinder-style swiping app for developers to find partners for hackathons or side projects.
+
+![Dev-LFG Demo](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=Dev-LFG+Demo)
 
 ## Features
 

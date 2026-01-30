@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm run install:all
+    
+    - name: Build server
+      run: cd server && npm run build
+    
+    - name: Build client
+      run: cd client && npm run build
+    
+    - name: Run tests (when available)
+      run: echo "Tests will be added in future versions"
