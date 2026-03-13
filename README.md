@@ -7,7 +7,7 @@
 
 > A Tinder-style swiping app for developers to find partners for hackathons or side projects.
 
-![Dev-LFG Demo](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=Dev-LFG+Demo)
+
 
 ## Features
 
